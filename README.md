@@ -1,1 +1,4 @@
 # Processing
+---
+permalink: /index.html
+---
