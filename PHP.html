@@ -1,74 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>SpOmLoL IO</title>
-		<style>
-							body{
-					margin: 0;
-					background-color:black;
-					color: #dddddd;
-   				    -webkit-animation-name: bcolchange; 
-				    -webkit-animation-duration: 10s;
-					-webkit-animation-direction: alternate;
-					-webkit-animation-iteration-count: infinite;
-					-webkit-animation-timing-function: ease-in-out;
-				    animation-name: bcolchange;
-				    animation-duration: 10s;
-					animation-direction: alternate;
-					animation-iteration-count: infinite;
-					animation-timing-function: ease-in-out;
-					
-				}
-				#header {
-					background-color:#111111;
-					position:fixed;
-					top:0;
-					width:100%;
-				}
-				#main {
-					margin-top:100px;
-				}
-				.flex-container{
-					display:flex;
-					justify-content: center;
-				}
-				.flex-container > a > div {
-				  background-color: #f1f1f1;
-				  width: 200px;
-				  margin: 10px;
-				  text-align: center;
-				  line-height: 75px;
-				  font-size: 30px;
-				  color:#222222;
-				  border-radius: 25px;
-				  text-decoration: none;
-				}
-				.flex-container > a {
-					text-decoration: none;
-				}
-				
-				@-webkit-keyframes bcolchange {
-				  0%   {background-color: black;}
-				  100% {background-color: #222222;}
-				}
 
-				/* Standard syntax */
-				@keyframes bcolchange {
-				  0%   {background-color: black;}
-				  100% {background-color: #222222;}
-				}
-		</style>
-	</head>
-	<body>
-		<div id="header">
-			<div class="flex-container">
-			  <a href="index.html"><div>Home</div></a>
-			  <a href="Java.html"><div>Java Projects</div></a>
-			  <a href="PHP.html"><div>PHP Projects</div></a>
-			</div> 
-		</div>
-		<div id="main">
-			
-		</div>
-	</body>
+<head>
+    <title>SpOmLoL IO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#head').load("myheadertemplate.html");
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="head">
+    </div>
+    <div id="main">
+        WIP
+    </div>
+</body>
+
 </html>
