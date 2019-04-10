@@ -7,15 +7,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-
-            $('#head').load("myheadertemplate.html");
-
+            $('#head').load("myheadertemplate.html", function () {
+                jQuery('#dropdown').addClass('active');
+            });
         });
     </script>
 </head>
 
 <body>
-    <div id="head"></div>
+    <div id="head">
+    </div>
     <div id="main">
         WIP
     </div>

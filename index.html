@@ -7,13 +7,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('#head').load("myheadertemplate.html");
+            $('#head').load("myheadertemplate.html", function () {
+                jQuery('#home').addClass('active');
+            });
         });
     </script>
 </head>
 
 <body>
-    <div id="head"></div>
+    <div id="head">
+
+    </div>
     <div id="main">
         <h1>Spomlol's Page</h1>
         <p>This page will be hosting my personal projects :D</p>

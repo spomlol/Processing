@@ -91,6 +91,7 @@ void draw() {
   checkmouse();
   for (car c: cars) {
     c.show();
+    c.update();
   }
   popMatrix();
   drawSide();

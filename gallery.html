@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SpOmLoL IO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#head').load("myheadertemplate.html", function () {
+                jQuery('#blog').addClass('active');
+            });
+        });
+        var dir = "Images-spain/";
+        var fileextension = ".jpeg";
+        $(document).ready(function () {
+            for (var n = 1; n < 123; ++ n) {
+                $("#photos").append("<img src='Images-spain/"+(n)+".jpg' />");	
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="head">
+
+    </div>
+    <div id="filler"></div>
+    <div id="Gallery">
+        <section id="photos"></section>
+    </div>
+</body>
+
+</html>

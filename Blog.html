@@ -7,27 +7,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-
-            $('#head').load("myheadertemplate.html");
-            $("#text").load("blog/Message1.txt");
-
+            $('#head').load("myheadertemplate.html", function () {
+                jQuery('#blog').addClass('active');
+            });
         });
+    </script>
+    <script>
+        function showText() {
+            $("#text").load("blog/Message1.txt");
+        }
     </script>
 </head>
 
 <body>
-    <div id="head"></div>
+    <div id="head">
+    </div>
     <div id="filler"></div>
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h1>My first blog!</h1>
+                <h1>My first post!</h1>
                 <h5>Going to Spain, Apr 5, 2019</h5>
                 <span> <img class="fakeimg" style="max-width: 80%;"
                         src="https://www.riotgames.com/darkroom/1440/f5f167c525dd1f3989bcfe9ebd3c7995:a842310bd11ee602459b324d098e0e02/barcelona-main.jpg"
                         alt="Barcelona picture"></span>
-                <p>I'm leaving Belgium to go to Barcelona for two months. <br>I'm really excited to see what this
-                    adventure has in store for me! <br><a href="">Click here to read more!</a></p>
+                <p id="text">I'm leaving Belgium to go to Barcelona for two months. <br>I'm really excited to see what
+                    this
+                    adventure has in store for me! <br><a style="color:blue;text-decoration: underline; cursor:pointer;"
+                        onclick="showText(1)">Click here to read more!</a>
+                </p>
             </div>
             <!-- <div class="card">
             <h2>TITLE HEADING</h2>
@@ -44,14 +52,28 @@
                         alt="Profile picture"> </span>
                 <p>Just an ordinary student travelling abroad to Barcelona for his internship.</p>
             </div>
+            <div class="card" >
+                <h2>Gallery</h2><a href="gallery.html" style="text-decoration: none; color:black">
+                <span ><img class="fakeimg" style="max-width: 80%;"
+                        src="Images-spain/85.jpg"
+                        alt="Gallery picture" > </span>
+                <p >View the pictures here!</p></a>
+            </div>
             <div class="card">
-                <h3>Recent Posts</h3>
+                <h2>The project itself!</h2>
                 <span> <img class="fakeimg" style="max-width: 80%;"
-                        src="https://www.riotgames.com/darkroom/1440/f5f167c525dd1f3989bcfe9ebd3c7995:a842310bd11ee602459b324d098e0e02/barcelona-main.jpg"
-                        alt="Barcelona picture"></span>
-                <p>My first blog!</p>
+                        src="https://www.researchgate.net/profile/Pavel_Baranov/publication/236929968/figure/fig3/AS:213118182531079@1427822742209/Two-main-ribo-seq-strategies-ribosome-profiling-of-elongating-ribosomes-top-blue.png"
+                        alt="Ribo-seq profiling"></span>
+                <p>Click here to learn more about my project!<br>(Not yet implemented)</p>
                 <!-- <div class="fakeimg">Image</div><br>
             <div class="fakeimg">Image</div> -->
+            </div>
+            <div class="card" >
+                <h2>Blog Sweden</h2><a href="https://cedrichermans.wixsite.com/sweden" style="text-decoration: none; color:black">
+                <span ><img class="fakeimg" style="max-width: 80%;"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1920px-Flag_of_Sweden.svg.png"
+                        alt="Swedish flag" > </span>
+                <p >Click here to view my blog from when I was in Sweden!</p></a>
             </div>
             <div class="card">
                 <h3>Follow Me</h3>
@@ -71,9 +93,7 @@
                     <a href="https://www.linkedin.com/in/cedric-hermans-a8a704156/"><img style="height:50px;"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"
                             alt=""></a>
-                    <a ><img style="height:50px;"
-                            src="snapchat.png"
-                            alt=""></a> <br>
+                    <a><img style="height:50px;" src="snapchat.png" alt=""></a> <br>
                 </p>
 
             </div>
