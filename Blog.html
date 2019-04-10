@@ -13,8 +13,12 @@
         });
     </script>
     <script>
-        function showText() {
-            $("#text").load("blog/Message1.txt");
+        function showText(x) {
+            if (x == 1) {
+                $("#text").load("blog/Message1.txt");
+            } else {
+                $("#text").load("blog/bericht1.txt");
+            }
         }
     </script>
 </head>
@@ -27,7 +31,7 @@
         <div class="leftcolumn">
             <div class="card">
                 <h1>My first post!</h1>
-                <h5>Going to Spain, Apr 5, 2019</h5>
+                <h5>Going to Spain, Apr 10, 2019</h5>
                 <span> <img class="fakeimg" style="max-width: 80%;"
                         src="https://www.riotgames.com/darkroom/1440/f5f167c525dd1f3989bcfe9ebd3c7995:a842310bd11ee602459b324d098e0e02/barcelona-main.jpg"
                         alt="Barcelona picture"></span>
@@ -48,7 +52,7 @@
             <div class="card">
                 <h2>About Me</h2>
                 <span><img class="fakeimg" style="max-width: 80%;"
-                        src="https://static.wixstatic.com/media/132f63_477a163c6a1246e3b84d776e90e6a23b~mv2.jpg/v1/fill/w_140,h_140,al_c,q_80,usm_0.66_1.00_0.01/132f63_477a163c6a1246e3b84d776e90e6a23b~mv2.jpg"
+                        src="Images-spain/108.jpg"
                         alt="Profile picture"> </span>
                 <p>Just an ordinary student travelling abroad to Barcelona for his internship.</p>
             </div>

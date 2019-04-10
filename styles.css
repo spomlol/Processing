@@ -58,6 +58,11 @@ body {
     width:100%;
 }
 
+#text {
+    font-size: 25px;
+    
+}
+
 .flex-container>a>div {
     width: 200px;
     margin: 10px;

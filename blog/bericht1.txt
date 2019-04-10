@@ -1,0 +1,29 @@
+<a onclick="showText(1)" style="color:blue;text-decoration:underline"> English </a> <a onclick="showText(2)"> Nederlands </a><br>
+<br>
+<a style="text-align: justify;">
+Hallo iedereen! Je zult ondertussen wel beseffen dat ik Cedric ben en dat ik mijn stage in Barcelona doe.
+<br><br>
+Voordat ik begin te praten over Barcelona zal ik eerst een woordje uitleg over mezelf geven.
+Ik ben student aan de hogeschool Howest, Brugge, België voor ondertussen een kleine 4 jaar.
+Mijn eerste drie jaar heb ik een bachelor Biomedische Laboratoriumtechnologie gestuurd, met als afstudeerrichting Farmaceutische en Biologische Laboratoriumtechnologie.
+Voor meer informatie over de richting, klik <a href="https://www.howest.be/nl/opleidingen/bachelor/biomedische-laboratoriumtechnologie">hier<a>!
+Als finale eindproef moest ik een stage doen. Toen ik de kans kreef om deze in het buitenland te doen heb ik deze met beide handen gegrepen. Dus ben ik naar Zweden gegaan voor ongeveer 4-5 maanden.
+Om specifieker te zijn, zat ik in Uppsala, een heel mooie stad net ten noorden van Stockholm. Ook hier diende ik een blog bij te houden die je <a href="https://cedrichermans.wixsite.com/sweden">hier</a> kunt terugvinden.
+Het project waar ik toen aan mee geholpen heb, is ondertussen gepubliseerd en het abstract kun je <a href="http://jcs.biologists.org/content/early/2019/03/28/jcs.228544.long?fbclid=IwAR1wcbnCbjuIMslqzMFLMPh9Zg0-q0zd7kZGsRcClDGxlr8q5ptDcBimDak">hier</a> raadplegen.
+Indien je vragen hebt over Zweden of mijn project kun je me altijd contacteren via 1 van de contactmogelijkheden rechtsonder aan de pagina.
+<br><br>
+Na deze studie besloot ik er nog een banaba bij te doen, namelijk deze in bio-informatica (<a href="https://www.howest.be/en/programmes/advanced-bachelor/bioinformatics">Die je overigens ook van thuis uit kan volgen!</a>).
+Ik had wederom de mogelijkheid om mijn stage in het buitenland te doen. Na enige opties te overwegen ben ik finaal gegaan voor Barcelona. 
+Aangezien de school tijdens een studiereis in het <a href="http://www.prbb.org/">PRBB</a> is langs geweest hadden ze reeds een paar contacten in het gebouw. Niet veel later kreeg ik de bevestiging dat ik hier mijn stage kon doen.
+<br><br>
+Dat brengt ons naar het heden. Vrijdag 5 april had ik om 8:30 mijn laatste examen. Slechts 21,5 uur later zaten mijn ouders en ik op de trein richting de luchthaven om 6 à 7 uur later voet op grond te zetten in Barcelona.
+Daarna zijn we naar mijn appartementje gegaan (het is klein maar gezellig), waar mijn huisbazin mij opwachtte. Ze was zeer vriendelijk en heeft me alles getoond die aanwezig was in het huis, en gaf ook enkele tips over de om liggende faciliteiten. Voor de rest van de dag hebben we zeer veel gewandeld.
+De daarop volgende dagen hebben we nog meer gewandeld (Auw mijn voetjes ;) ). We hebben reeds veel gezien, maar deze stad is zo onnoemelijk groot dat er nog steeds meer dan genoeg te zien valt! 
+Dinsdag 9 april keerden mijn ouders terug naar huis en werd ik rond 11u verwacht op mijn stageplaats zodat ik voorgesteld kon worden aan iedereen in het team. Daarnaast moesten we ook nog wat papierwerk in orde brengen.
+De mensen die ik tot noch toe ontmoet heb lijken mij zeer vriendelijke mensen en ik kijk er naar uit om met hen samen te werken. Aangezien er nog wat onduidelijkheid bestond over het project waar ik de komende 2 maand aan zal werken zal ik dan ook de details voor ietwat later houden.
+Ik start op maandag, 15 april. Dus momenteel heb ik nog wat tijd om de stad te ontdekken, en dat ga ik dan ook nu doen!<br>
+In tussentijd kunnen jullie al wat foto's raadplegen. Houd er echter rekening mee dat ik deze website zelf gemaakt heb en niet alles super efficiënt is. Het duurt dus even om de foto's te laden, maar gedulde is een mooie zaak.
+De gallerij kun je aan de rechterkant terugvinden of gewoon door <a href="gallery.html">hier</a> te klikken!
+<br><br>
+¡Hasta luego!
+</a>

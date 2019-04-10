@@ -1,2 +1,30 @@
-I'm leaving Belgium to go to Barcelona for two months. <br>
-I'm really excited to see what this adventure has in store for me! <br>
+<a onclick="showText(1)"> English </a><a onclick="showText(2)" style="color:blue;text-decoration:underline"> Nederlands </a><br>
+<br>
+<a style="text-align: justify;">
+Hi everybody! As you are probably aware by now, I'm Cedric and I'm doing my internship in Barcelona!
+<br><br>
+Before I talk about Barcelona I'll just give a bit of background about myself!
+I'm a student at the university college of Howest, Brugge, Belgium. I've been in this school for just under 4 years now. 
+My first three years were for a bachelors degree in Biomedical Laboratory Technology. 
+As a specialisation training program in the third year I chose Pharmaceutical and Biological Laboratory Technology.
+<a href="https://www.howest.be/en/programmes/bachelor/biomedical-laboratory-technology">You can read more about the program over here!<a>
+To finalize my bachelors degree I had to take a traineeship. When I got the opportunity to go abroad I grasped it with both hands. So I went to Sweden for about 4-5 months.
+More specifically in Uppsala, I very beautifull city just north of Stockholm. I also needed to keep a blog on that, which you can find over <a href="https://cedrichermans.wixsite.com/sweden">here.</a> 
+The project I helped on has been released by now and you can read the abstract over <a href="http://jcs.biologists.org/content/early/2019/03/28/jcs.228544.long?fbclid=IwAR1wcbnCbjuIMslqzMFLMPh9Zg0-q0zd7kZGsRcClDGxlr8q5ptDcBimDak"> here. </a>
+Feel free to ask me anything about it by contacting me through one of the means at the bottom right of this page.
+<br><br>
+After this course I decided to do the advanced bachelor in Bioinformatics (<a href="https://www.howest.be/en/programmes/advanced-bachelor/bioinformatics">which can also be followed at home!</a>).
+I again had the opportunity to go abroad, so this time, I decided to go from somewhere cold to somewhere warm (With some in between steps, but those are not that important). So in the end I choose for Barcelona.
+Since the school had visited the <a href="http://www.prbb.org/">PRBB</a> in Barcelona whilst on a study trip, they had made some contacts with some people over here. And it wasn't long before they confirmed I could come here.
+<br><br>
+This brings us to the present day. On Friday, the 5th of April, at 8:30 am, I had my final exam. A mere 21,5 hours later, my parents and me would be on the train on my way to the airport. Another 6-7 hours later, I had set foot in Barcelona.
+I went to my little appartment (It's little but cozy). And I met up with my landlord/landlady. She was really nice and showed us everything that was over there. For the rest of the day we went to walk around a lot. 
+The following days we did the same. We visited already a lot of places, but this city is unimaginably big. So there is still a lot to explore.
+On Tuesday, April 9th, my parents went home. At 11 'o clock I was expected at the PRBB to be introduced to the other members of the lab and to take care of a bit of paperwork.
+The people I've met seem really nice and I'm looking forward to work with them.
+As the details of my project are not yet that clear I'll keep the details for a later blog post.
+I start on Monday, April 15th. So for now I still have some time to explore. Which I am going to do right now!<br> In the meanwhile, feel free to take a look at the gallery of pictures that I took.
+Mind you that I made this website myself and it's not the most efficiënt so loading the pictures is a tad slow, but give it some time. You can find the gallery over on the right or by clicking <a href="gallery.html">here</a>.
+<br><br>
+¡Hasta luego!
+</a>
