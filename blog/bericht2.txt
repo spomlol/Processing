@@ -1,0 +1,52 @@
+<a onclick="showText(3)"> English </a><a onclick="showText(4)" style="color:blue;text-decoration:underline"> Nederlands </a><br>
+<br>
+<a style="text-align: justify;">
+De dagen vliegen voorbij en het weer wordt stilaan beter.
+Mijn project begint vorm the krijgen en mijn examen resultaten zijn eindelijk gepubliceerd. <br>
+Opmerking: Google translate werd gebruikt voor het vertalen maar werd nagelezen op vreemde vertalingen, echter kan ik er altijd gemist hebben. Lees dit dus met een korreltje zout ;)<br>
+Na 1 maand wachten hebben we ze dan toch gekregen en nu kunnen we stoppen met ons zorgen te maken erover.
+Ondertussen heb ik al 8 dagen stage achter de rug en het project waar ik aan werk begint stilaan duidelijker te worden.
+Ik ga iemand van hier helpen met zijn project. Hijzelf focust zich op ietwat andere data dan ik, maar ik onderzoek een interessant fenomeen dat ze hebben opgemerkt.<br>
+Een zeer simpele uitleg voor niet-biologisch wentenschappelijke personen:<br>
+DNA wordt overgeschreven naar mRNA, en dat wordt dan weer vertaald in eiwit. Eiwitten doen dingen in ons lichaam, zij zijn eigenlijk hetgene wat ons lichaam draaiende houd. Kleine fabriekjes worden gebruikt voor het overschrijvn en vertalen.
+Deze kleine fabriekjes zijn op zich ook eiwitten. Maar soms bevatten deze eiwitten ook een vorm van RNA, namelijk rRNA. 
+We kijken naar het proces dat mRNA in eiwitten omzet.
+In de meeste gevallen wordt hiervoor een techniek met de naam RNA-sequencing gebruikt. Dit houdt in dat je al deze mRNA-stukjes neemt die in de cellen rondzweven en in eiwitten worden omgezet en je kijkt naar hoe deze mRNA stukjes zijn opgebouwd.
+RNA is een molecule dat nauw verwant is aan DNA. Dus eigenlijk kijk je naar een reeks letters, die elk de code van een eiwit vertegenwoordigen. Hier is een voorbeeld van een dergelijke reeks: <br>
+<pre> GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT </pre>
+Voor diegenen die dit nog steeds aan het lezen zijn: WOW het zijn 4 letters in willekeurige volgorde! Nou... ja dat is waar het op neer komt als je kijkt het heel erg basis bekijkt... bedankt om mijn immersie te doorbreken, gemeeneraard!
+Excuseer me dat ik de vierde muur daar heb gebroken. Het zal niet opnieuw gebeuren... of wel?
+Spoiler: ja het zal opnieuw gebeuren. <br>
+Laten we terug op het goede spoor komen: Oké goed, we hebben een reeks letters. Wat moeten we nu doen? Welnu, elke letter heeft een kwaliteitsscore.
+Afhankelijk van de kwaliteit, heb je goede en slechte. Dus gebruiken we een aantal tools om de slechte eruit te filteren en om sommige delen van de sequenties die adapters worden genoemd, te verwijderen.
+Dat zijn eigenlijk maar kleine stukjes die ze toevoegen aan het RNA van de cel om te helpen bij het bepalen van de volgorde. Geweldig, nu hebben we nog steeds veel van deze sequenties met goede kwaliteit en geen adapters. Volgende stap alstublieft.
+Nu is het tijd om deze sequenties in kaart te brengen op een referentiegenoom. Dit is gewoon een mooie manier om te zeggen: waar past deze sequentie op deze andere sequentie, terwijl de andere sequentie de genetische code van een organisme is.
+Dus nu weten we waar deze sequenties ergens op het genoom zitten. Daarna veranderen we het formaat een beetje, zodat een computer het gemakkelijker kan lezen. Als laatste stap: we nemen die in kaart gebrachte sequenties, en we tellen hoeveel er voor elk gen zijn.
+Een gen is slechts een deel van de genomische code die zegt: hé, dit eiwit hier, je zou het zo moeten bouwen.
+En daar hebben we het. Het is niet zo moeilijk als je niet naar de details kijkt.
+<br>
+Nu hebben we een tabel die er ongeveer zo uitziet (maar veel langer):
+<table style="border: 1px solid black">
+<tr><td>A1BG</td><td>8</td></tr>
+<tr><td>A1BG-AS1</td><td>17</td></tr>
+<tr><td>A1CF</td><td>23</td></tr>
+<tr><td>A2M</td><td>16</td></tr>
+<tr><td>A2M-AS1</td><td>2</td></tr>
+<tr><td>A2ML1</td><td>17</td></tr>
+<tr><td>A2MP1</td><td>3</td></tr>
+<tr><td>A3GALT2</td><td>0</td></tr> 
+</table>
+Nu kunnen we naar deze tabel kijken om te zien welke eiwitten meer worden vertaald dan normaal wanneer bepaalde stresssituaties optreden. Neem bijvoorbeeld een plant die je minder water geeft. Die groeit niet zo snel meer.
+Wat gebeurt er in de plant zijn cellen? Dat is eigenlijk wat je kunt zien door een plant te vergelijken met water en een plant met minder water. Dat is geweldig, maar niet wat ik aan het doen ben. <br>
+Vergeet niet dat ik zei dat deze techniek RNA-sequencing werd genoemd. Ja, dus er is een andere techniek genaamd Ribosome-sequencing. Ik weet het, ik weet het ... je wilt huilen en wegrennen en dergelijke ... alsjeblieft niet, weet je hoe lang het duurt om deze dingen te schrijven?
+30 minuten of zoiets, en dan moet ik het nog vertalen! Ik doe dit voor jou! Ik zal het deze keer heel simpel houden. De gegevens waarmee je begint, zijn anders. Denk aan de kleine fabrieken die het eiwit produceren. Wel, ze zitten op dit RNA.
+Bij RNA-sequencing maakt het je niet uit. Als ze erop zitten, goed, als ze er niet opzitten, ook goed. Dat is het verschil in Ribosome-sequencing. Hier kijken we alleen naar het gedeelte waar deze kleine fabrieken op het RNA zitten, omdat dit betekent dat ze op dat moment het eiwit produceren!
+Dit is interessant, want vanwege dingen in de cel die zelfs wetenschappers nog niet helemaal begrijpen, wordt niet al het RNA altijd gebruikt om eiwitten te produceren. Sommige zijn er gewoon en worden later weer afgebroken. Over het algemeen denken we: meer RNA betekent meer eiwit, maar zoals je waarschijnlijk al doorhebt,
+is dit niet altijd het geval! De persoon die ik help, kijkt naar de verschillen tussen RNA-sequencing en Ribosome-sequencing om te zien wat betrouwbaarder is om de genen te bepalen. Ik kijk daarentegen naar de, wacht erop, het is deze moeilijke term, upstream open reading frames. <br>
+Maar ik dacht dat je het simpel zou houden? Wenende emoji. Nou, ik loog een beetje, want wie anders zou dit allemaal lezen als ik zei dat het complex zou worden, inderdaad niemand. Aangezien je zo ver bent gekomen, kun je net zo goed doorgaan aangezien we er bijna zijn.
+Oké, dus deze moeilijke term is eigenlijk gewoon een deel in het begin van de mRNA-sequentie die niet in eiwitten wordt omgezet. Je kunt het zien als de werkers van de fabriek die het gebouw binnengaan en hun kleding veranderen voordat ze beginnen te werken.
+Het is slechts een begin voor deze kleine fabriek om het mRNA te pakken en de start te vinden om het eiwit te gaan maken. Maar soms zijn er in het begin delen die de fabriek 'bedriegen' om te denken dat ze daar moeten beginnen.
+Dat bedoelen we met: een open reading frame. En ik kijk naar deze plekken, want er is opgemerkt dat er voor sommige genen vaak meer fabrieken zijn die bedrogen worden als de cellen stress ervaren. Dit zou kunnen betekenen dat de cellen dit met opzet doen om de hoeveelheid productie van eiwitten te beperken om energie te besparen. Dus ik vergelijk deze upstream open reading frames in gestreste en niet-gestreste cellen in RiboSeq en RNASeq.
+<br>Dat is de al de tijd die ik vandaag heb indien ik nog steeds een behoorlijk aantal lezers wil hebben op het moment dat ik dit bericht plaats. Bedankt dat je dit lange gecompliceerde verhaal hebt doorstaan, en neem gerust contact met me op als je wilt dat sommige dingen worden opgehelderd.
+<br>¡Hasta luego!</a>
+

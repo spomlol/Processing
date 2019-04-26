@@ -24,9 +24,13 @@
     <script>
         function showText(x) {
             if (x == 1) {
-                $("#text").load("blog/Message1.txt");
-            } else {
-                $("#text").load("blog/bericht1.txt");
+                $("#text1").load("blog/Message1.txt");
+            } else if (x==2) {
+                $("#text1").load("blog/bericht1.txt");
+            } else if (x==3) {
+                $("#text2").load("blog/Message2.txt");
+            } else if (x==4) {
+                $("#text2").load("blog/bericht2.txt");
             }
         }
     </script>
@@ -39,17 +43,30 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
+                <h1>69 hours of work done!</h1>
+                <h5>2 weeks done, Apr 26, 2019</h5>
+                <span> <img class="fakeimg" style="max-width: 80%;"
+                        src="Scinote.png"
+                        alt="Barcelona picture"></span>
+                <p id="text2">The days are flying by and the weather is getting better<br>
+                        My project begins to get shape and the exam results are in the past...
+                        <br><a style="color:blue;text-decoration: underline; cursor:pointer;"
+                        onclick="showText(3)">Click here to read more!</a>
+                </p>
+            </div>
+            <div class="card">
                 <h1>My first post!</h1>
                 <h5>Going to Spain, Apr 10, 2019</h5>
                 <span> <img class="fakeimg" style="max-width: 80%;"
                         src="https://www.riotgames.com/darkroom/1440/f5f167c525dd1f3989bcfe9ebd3c7995:a842310bd11ee602459b324d098e0e02/barcelona-main.jpg"
                         alt="Barcelona picture"></span>
-                <p id="text">I'm leaving Belgium to go to Barcelona for two months. <br>I'm really excited to see what
+                <p id="text1">I'm leaving Belgium to go to Barcelona for two months. <br>I'm really excited to see what
                     this
                     adventure has in store for me! <br><a style="color:blue;text-decoration: underline; cursor:pointer;"
                         onclick="showText(1)">Click here to read more!</a>
                 </p>
             </div>
+            
             <!-- <div class="card">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Sep 2, 2017</h5>

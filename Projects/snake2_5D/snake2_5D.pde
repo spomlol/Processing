@@ -75,8 +75,12 @@ void draw() {
   if (death) {
     deathhud();
   }
-  if (death && snakes.get(0).ai && snakes.get(1).ai) {
-    reset(true,true);
+  if (death && snakes.get(0).ai) {
+    if (multi==false) {
+      reset(true,true);
+    } else if (snakes.get(1).ai) {
+      reset(true,true);
+    }
   } 
   if (menu) {
     menuHud();

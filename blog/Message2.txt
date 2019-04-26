@@ -1,0 +1,54 @@
+<a onclick="showText(3)"> English </a><a onclick="showText(4)" style="color:blue;text-decoration:underline"> Nederlands </a><br>
+<br>
+<a style="text-align: justify;">
+The days are flying by and the weather is getting better.
+My project begins to get a shape and the exam results are in the past.
+
+<br> After 1 month of waiting for the result we finally got the results of our
+exames and now we can stop worrying about it. I've worked for 8 days now at my internship and the project I'll be working on has slowly but surely
+gotten clearer. I'll be helping someone else on his project but look at some different things than the main project is focused on.<br>
+
+A very simple explanation for the non-biological-scientific person:<br>
+DNA is getting transcribed into mRNA that gets translated into protein. Proteins do stuff in our body, they are what mainly run our systems. To transcribe and translate, little factories are used.
+These themselves are also proteins, but in some cases they have this other form of RNA, called rRNA. We look at the process that translates mRNA into proteins.
+In most of the times, a technique called RNA sequencing is used to do this. This implies that you take all these mRNA pieces that float around in the cells and are getting translated into proteins and you look at them.
+RNA is a molecule that is very closely related to DNA. So basically, you are looking at a sequence of letters, each representing the code of a protein. Here is an example of such a sequence:<br>
+<pre>GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT</pre>
+For the ones that are still reading this: WOW it's 4 letters in random orders! Well... yeah that's what it gets down to if you look at the very basic point of view... Way to break my immersion into my story, you meany!
+Excuse me for breaking the fourth wall there. It wont happen again... or will it. 
+Spoiler: yes it will. <br>
+Let's get back on track: Okay great, we have a sequence of letters. What should we do now? Well, every letter has a quality score.
+Depending on the quality, you have good ones and bad ones. So we use some tools to filter out bad ones as well as to remove some parts of the sequences that are called adapters.
+Those are basically just little parts they add onto the RNA of the cell to help with the sequencing. Great, now we have still a lot of these sequences with good quality and no adapters. Next step please.
+Now it's time to map this sequence onto a reference genome. This is just a fancy way for saying: where does this sequence fit on this other sequence with the other sequence being the genetic code of an organism.
+So now we know where they belong to. Then we just change the format around a bit, so a computer can read it more easily. As a final step: we take those mapped sequences, and we count how many there are for every gene.
+A gene is just a piece of the genomic code that says: hey, this protein here, you should build it like this.
+And there we have it. It's not that difficult if you don't look at the details.<br>
+Now we have a table that looks something like this (but much longer):
+<table style="border: 1px solid black">
+<tr><td>A1BG</td><td>8</td></tr>
+<tr><td>A1BG-AS1</td><td>17</td></tr>
+<tr><td>A1CF</td><td>23</td></tr>
+<tr><td>A2M</td><td>16</td></tr>
+<tr><td>A2M-AS1</td><td>2</td></tr>
+<tr><td>A2ML1</td><td>17</td></tr>
+<tr><td>A2MP1</td><td>3</td></tr>
+<tr><td>A3GALT2</td><td>0</td></tr> 
+</table>
+Now we can look at this table to see what proteins are more translated than normal when certain stress situations occur. Take for example a plant that you give less water. It doens't grow that fast anymore. 
+What happens in the plant his cells? That is basically what you can see by comparing a plant with water and a plant with less water. Which is great, but not what I'm doing.<br>
+Remember I said this technique was called RNA sequencing. Yeah, so there is this other technique called Ribosome sequencing. I know, I know... you want to cry and run away and such... please don't, you know how long it takes to write these things?
+Like 30 minutes or something, and then I still have to translate it! I'm doing this for you! I'll keep it really simple this time. The data you start from is different. Remember the little factories that produce the protein. Well, they are sitting on this RNA.
+In RNA sequencing you don't care. If they sit on it, good, if they don't who cares. That is the difference in Ribosome sequencing. Here we only look at the part where there are these little factories on the RNA because this means they are producing the protein at that time!
+This is interesthing, because of things in the cell that even scientist don't fully understand yet, not all the RNA is always used to produce proteins. Some is just there and later get's broken down again. Generally we think: more RNA means more protein, but as you probably already can tell,
+this is not always the case! The person I help looks at the differences between RNA sequencing and Ribosome sequencing to see which is more reliable to determine the genes. I on the other hand look at the, wait for it, it's this difficult term, upstream open reading frames. <br>
+But I thought you were gonna keep it simple? Crying emoji. Well I kinda lied, because who else would read all this if I said it was going to be complex, indeed, no one. Since you got this far you might as well continue as we are almost there.
+Okay, so this difficult term is basically just is a part in the beginning of the mRNA sequence that doesn't get translated into protein. You can see it as the workers of the factory that enter the building and change there clothes before they start working.
+It's just a start for this little factory to grab the mRNA and find the beginning to start making the protein. Now, sometimes there are these parts in the beginning that "trick" the factory in to thinking they have to start there.
+That is what is called: an open reading frame. And I look at these spots, because it has been noted that for some genes there often are more factories that get tricked when the cells are experiencing stress. This could mean that the cells do this on purpose to limit the amount of productions of proteins to save energy.
+So I compare these upstream open reading frames in stressed and unstressed cells in RiboSeq and RNASeq.<br>
+
+That's all the time I have for today, if I still want to get a decent amount of views at the time of posting. Thanks for sticking through this long complicated story, but make sure to contact me in any way shape or form if you'd like some things clarified.
+<br><br>
+¡Hasta luego!
+</a>
